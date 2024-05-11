@@ -1,0 +1,57 @@
+*{
+  font-family: "Chakra Petch", sans-serif;
+}
+
+.container{
+  background-image: url(bg.jpg);
+  height: 640px;
+  width: 360px;
+}
+
+.container h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  color: #6f9964;
+  font-size: 40px;
+  font-weight: 700px;
+}
+
+.container h1:nth-child(2) {
+  color: #6f9964;
+  font-size: 60px;
+}
+.container  p{
+  color: #6f9964;
+  font-size: 20px;
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+.increment-btn{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.increment-btn > button{
+  border: none;
+  border-radius: 18px;
+  letter-spacing: 5px;
+  background-color: #A1C398;
+  font-weight: bold;
+  color: white;
+  height: 40px;
+  width: 200px;
+  margin-top: 20px;
+  color: #e4f7df;
+}
+
+.increment-btn > button:hover{
+  background-color: #91b686;
+}
+
+.increment-btn > button:active{
+  opacity: 0.8;
+}
